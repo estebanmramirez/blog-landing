@@ -1,0 +1,47 @@
+.sign__button {
+    font-size: 1.5em;
+}
+
+.title {
+    font-size: 4.0em;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.img__mobile--desktop {
+    width: 450px;
+}
+
+.title__2 {
+    text-align: left;
+    margin-left: 30px;
+    width: 100%;
+}
+
+.section__text {
+    text-align: left;
+    font-size: 1.5em;
+}
+
+.middle__title {
+    font-size: 3em;
+}
+
+.middle__text {
+    font-size: 1.5em;
+}
+
+.third__section div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.third__text {
+    width: 60%;
+    font-size: 1.5em;
+}

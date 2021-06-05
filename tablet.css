@@ -1,0 +1,179 @@
+.header__icons {
+    display: none;
+}
+
+.header__nav {
+    display: block;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.header__title {
+    font-size: 50px;
+    width: 80%;
+    margin-top: 50px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.menu__options {
+    list-style-type: none;
+    font-family: var(--font-1);
+    font-size: 1.6em;
+    color: var(--text);
+    font-weight: bold;
+    margin-left: 10px;
+    
+}
+
+.login {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style-type: none;
+    font-family: var(--font-1);
+    font-size: 1.6em;
+    color: var(--text);
+    font-weight: bold; 
+}
+
+.sign__button {
+        height: 40px;
+        width: 100px;
+        color: var(--text);
+        font-family: var(--font-1);
+        border-radius: 25px;
+        background-color: transparent;
+        border: 1.5px solid var(--text);
+        font-size: 1.2em;
+        font-weight: bold;
+        margin-right: 20px;
+}
+
+/* --- AQUI TERMINA EL HEADER DE LA TABLET ---*/
+
+/* --- EMPIEZA EL MAIN ---*/
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.sub__container {
+    order: 1;
+    width: 380px;
+}
+
+.img__mobile {
+    display: none;
+}
+
+.img__mobile--desktop {
+    display: block;
+    position: relative;
+    left: 50px;
+    bottom: 30px;
+    order: 2;
+    width: 400px;
+    height: 400px;
+}
+
+.title__2 {
+    font-size: 2.0em;
+}
+
+.section__text {
+    font-size: 1.2em;
+    margin: 30px 30px;
+    width: 90%;
+}
+
+/* --- EMPIEZA LA TERCERA SECCION ---*/
+
+.mid__container {
+    height: 500px;
+}
+
+.img__phones {
+    position: relative;
+    z-index: 300;
+    top: 30px;
+}
+
+.middle__section {
+    position: relative;
+    bottom: 350px;
+    height: 400px;
+}
+
+.middle__section div {
+    position: relative;
+    left: 370px;
+    bottom: 20px;
+    width: 50%;
+}
+
+.middle__title {
+    font-size: 2.0em;
+    margin: 30px 0 30px 0;
+}
+
+.middle__text {
+    font-size: 1.2em;
+    text-align: left;
+}
+
+/* --- CUARTA SECCION --*/
+
+.third__section {
+    display: flex;
+    margin-top: 30px;
+}
+
+.third__section--img {
+    margin-top: 0px;
+}
+
+.third__section div {
+    height: 450px;
+}
+
+.third__title {
+    font-size: 2.0em;
+    margin: 0 0 10px 0;
+    text-align: left;
+}
+
+.third__text {
+    font-size: 1.2em;
+    margin: 0 0 30px 0;
+    width: 90%;
+    text-align: left;
+}
+
+/* --- FOOTER ---*/
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.links__title {
+    text-align: left;
+    font-size: 1.5em;
+}
+
+.links p {
+    font-size: 1.2em;
+    text-align: left;
+}
+
+.links__footer p {
+    font-size: 1.2em;
+    text-align: left;
+}
